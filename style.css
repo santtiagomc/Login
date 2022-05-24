@@ -111,7 +111,7 @@ body {
     outline: none;
     padding: .2rem 0;
     font-size: .9rem;
-    color: white;
+    color: #BDC3C7;
 }
 
 .formulario input[type="button"] {
@@ -142,4 +142,22 @@ body {
 .sign-up.active {
     opacity: 0;
     visibility: hidden;
+}
+
+@media screen and (max-width: 600px) {
+    .container-form {
+        flex-direction: column;
+    }
+
+    .formulario {
+        width: 90%;
+    }
+
+    .formulario input {
+        width: 100%;
+    }
+
+    .formulario input[type="button"] {
+        width: 100%;
+    }
 }
